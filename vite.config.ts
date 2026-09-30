@@ -3,7 +3,7 @@ import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
-const repoBase = '/basic-financial-calculator/';
+const repoBase = '/';
 
 export default defineConfig(({ command }) => ({
   base: command === 'build' ? repoBase : '/',
